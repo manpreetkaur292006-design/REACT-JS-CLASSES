@@ -1,0 +1,21 @@
+.main-header{
+  height: 80px;
+  background-color: rgb(141, 78, 78);
+  color: black;
+  box-shadow: 0px 0px 2px 2px red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+li{
+  list-style-type: none;
+  justify-content: space-around;
+}
