@@ -1,6 +1,10 @@
 import React from 'react'
 import Navbar from '../Navbar'
 
+export const Demo=()=>{
+  return "hello world"
+}
+
 const About = () => {
   return (
     <>
@@ -11,3 +15,6 @@ const About = () => {
 }
 
 export default About
+
+// export {Demo} - other way to export this - named export 
+
