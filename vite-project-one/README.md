@@ -1,3 +1,5 @@
+## README.md :- This is the README.md file for the React.js notes.
+
 # Note 
 
 1. First letter of the component must be capital.
