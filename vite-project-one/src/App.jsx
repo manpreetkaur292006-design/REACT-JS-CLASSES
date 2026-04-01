@@ -4,6 +4,7 @@ import "./App.css"
 import About, {Demo} from './components/About'
 
 import {add,subtract} from './components/Math';
+import Count from './components/Count';
 
 // console.log(add(2,3));  
 // console.log(subtract(5,2));
@@ -17,6 +18,7 @@ const App = () => {
     <>
     <Navbar/> 
     <h1>This is app component.</h1>
+    <Count/>
     <About/>
     <Demo/>
    </>
