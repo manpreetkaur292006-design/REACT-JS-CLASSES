@@ -6,12 +6,12 @@ import Rimg3 from '../assets/Rimg3.png'
 const ResourcesSection = () => {
   return (
     <>
-      <div className='resource-section'>
+      <div className='resource-section' id='resource-section-id'>
         <div id='resource-1'>
             <h1>
               Resources & Tools
             </h1>
-            <p>
+            <p id='Res-para'>
               Everything you need to support your mindfulness practice
             </p>
             <button className='resource-btns' id='btn-1'>Meditations</button>

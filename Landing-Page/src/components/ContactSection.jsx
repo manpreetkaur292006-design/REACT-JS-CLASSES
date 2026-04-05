@@ -7,9 +7,9 @@ import { FaLinkedin } from "react-icons/fa";
 const ContactSection = () => {
   return (
     <>
-      <div className="contact-section">
+      <div className="contact-section" id="contact-section-id">
         <h1>Connect With Us</h1>
-        <div id="Contact-info">
+        <div id="Contact-information">
           <div id="get-in-touch">
             <h2>Get in Touch</h2>
             <div className="contact-info">
@@ -48,15 +48,18 @@ const ContactSection = () => {
               </p>
             </div>
           </div>
-          <div id="send-message">
+          <form id="send-message">
+            <h2>Send a Message</h2>
             <label htmlFor="Name">Your Name</label>
             <input type="text" name="Name" id="Name" />
             <label htmlFor="Email">Email Address</label>
             <input type="email" name="Email" id="Email" />
             <label htmlFor="Subject">Subject</label>
-            <textarea type="text" name="Subject" id="Subject"></textarea>
+            <input type="text" name="Subject" id="Subject" />
+            <label htmlFor="Message">Message</label>
+            <textarea type="text" name="Message" id="Message"></textarea>
             <button id="send-message-btn">Send Message</button>
-          </div>
+          </form>
         </div>
       </div>
     </>

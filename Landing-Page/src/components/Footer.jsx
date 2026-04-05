@@ -11,8 +11,8 @@ const Footer = () => {
         </div>
         <hr />
         <p id='copyright'>
-          ©️2025 Inner Peace. All rights reserved Nurturing minds,
-          one breadth at a time.Designed by <p>Tooplate</p>
+          © 2025 Inner Peace. All rights reserved Nurturing minds,
+          one breadth at a time.Designed by Tooplate.
         </p>
       </div>
     </>

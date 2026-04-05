@@ -3,7 +3,7 @@ import React from "react";
 const PracticesSection = () => {
   return (
     <>
-      <div id="practices-section">
+      <div className="practices-section" id="practices-section-id">
         <h1>Mindful Practices</h1>
         <p>Master these core practices to build your mindfulness toolkit</p>
         <div className="practices-timeline">

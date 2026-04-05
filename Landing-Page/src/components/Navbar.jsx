@@ -13,11 +13,11 @@ const Navbar = () => {
             <div className='navbar'>
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Practices</a></li>
-                        <li><a href="#">Resources</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#hero-section-id" className='nav-link'>Home</a></li>
+                        <li><a href="#feature-cards-section-id" className='nav-link'>About</a></li>
+                        <li><a href="#practices-section-id" className='nav-link'>Practices</a></li>
+                        <li><a href="#resource-section-id" className='nav-link'>Resources</a></li>
+                        <li><a href="#contact-section-id" className='nav-link'>Contact</a></li>
                     </ul>
                 </nav>
             </div>

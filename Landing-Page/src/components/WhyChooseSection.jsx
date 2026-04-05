@@ -4,7 +4,7 @@ import { TiTick } from "react-icons/ti";
 const WhyChooseSection = () => {
   return (
     <>
-      <div id='./why-choose-section'>
+      <div className='why-choose-section'>
         <h1>Why Choose Inner Peace?</h1>
         <div id='features-cards'>
 

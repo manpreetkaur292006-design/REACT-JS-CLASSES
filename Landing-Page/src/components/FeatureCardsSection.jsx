@@ -3,9 +3,9 @@ import React from 'react'
 const FeatureCardsSection = () => {
   return (
     <>
-      <div className='feature-cards-section'>
-        <h1>Discover Mindfulness</h1>
-        <p>Transform your mind, transform your life</p>
+      <div className='feature-cards-section' id='feature-cards-section-id'>
+        <h1 id='discover-head'>Discover Mindfulness</h1>
+        <p id='discover-para'>Transform your mind, transform your life</p>
         <div id='feature-cards'>
 
           <div className='cards' id='card-1'>
