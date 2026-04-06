@@ -11,11 +11,12 @@ import React from 'react'
 // }
 
 // new method
-const Child = ({name}) => {
+const Child = ({name,alert}) => {
   return (
     <>
     <div>Child</div>
     <h1>Rendered in child component: {name}</h1>
+    <button onClick={alert}>Click</button>
     </>
   )
 }
