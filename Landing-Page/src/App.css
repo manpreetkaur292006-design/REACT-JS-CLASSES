@@ -30,8 +30,8 @@
 }
 
 .logo {
-  height: 95px;
-  width: 95px;
+  height: 80px;
+  width: 80px;
 }
 
 .title {
@@ -84,11 +84,11 @@ ul li a:hover{
   );
   color: white;
   display: flex;
-  height: 400px;
+  height: 655px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 25px;
   scroll-margin-top: 100px;
 }
 
@@ -635,8 +635,8 @@ ul li a:hover{
   border-radius: 20px;
   cursor: pointer;
   box-shadow: 0 6px 16px rgba(125, 166, 255, 0.4);
-  margin: 3px;
-  padding: 3px;
+  margin: 2px;
+  padding: 5px;
 }
 
 #circles {
