@@ -5,49 +5,48 @@ const WhyChooseSection = () => {
   return (
     <>
       <div className='why-choose-section'>
-        <h1>Why Choose Inner Peace?</h1>
-        <div id='features-cards'>
-
-          <div className='feature' id='feature-1'>
+        <h2 className='why-title'>Why Choose Inner Peace?</h2>
+        <div className='why-grid'>
+          <div className='why-item'>
+            <div className='why-icon'>
+              <TiTick />
+            </div>
             <p>
-              <TiTick /> Science-backed techniques
-              <br />
-              proven by neuroscience
+              Science-backed techniques proven by neuroscience
             </p>
           </div>
-
-          <div className='feature' id='feature-2'>
+          <div className='why-item'>
+            <div className='why-icon'>
+              <TiTick />
+            </div>
             <p>
-              <TiTick /> Personalized journey 
-              <br />
-              adapted to your needs
+              Personalized journey adapted to your needs
             </p>
           </div>
-
-          <div className='feature' id='feature-3'>
+          <div className='why-item'>
+            <div className='why-icon'>
+              <TiTick />
+            </div>
             <p>
-              <TiTick /> Expert guidance from 
-              <br />
-              certified instructions
+              Expert guidance from certified instructors
             </p>
           </div>
-
-          <div className='feature' id='feature-4'>
+          <div className='why-item'>
+            <div className='why-icon'>
+              <TiTick />
+            </div>
             <p>
-              <TiTick /> Track your progress with
-              <br />
-              real metrics
+              Track your progress with real metrics
             </p>
           </div>
-
-          <div className='feature' id='feature-5'>
+          <div className='why-item'>
+            <div className='why-icon'>
+              <TiTick />
+            </div>
             <p>
-              <TiTick /> Brought to you by Tooplate 
-              <br />
-              website
+              Brought to you by Tooplate website
             </p>
           </div>
-
         </div>
       </div>
     </>
