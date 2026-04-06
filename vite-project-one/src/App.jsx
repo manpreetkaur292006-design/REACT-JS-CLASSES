@@ -5,6 +5,8 @@ import About, {Demo} from './components/About'
 
 import {add,subtract} from './components/Math';
 import Count from './components/Count';
+import Parent from './propsPassing/Parent';
+
 
 // console.log(add(2,3));  
 // console.log(subtract(5,2));
@@ -21,6 +23,7 @@ const App = () => {
     <Count/>
     <About/>
     <Demo/>
+    <Parent/>
    </>
   )
 }
