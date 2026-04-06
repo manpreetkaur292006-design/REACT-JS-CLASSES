@@ -33,20 +33,43 @@ const ContactSection = () => {
                   support@innerpeace.com
                 </p>
               </div>
-              <div className="contact-info">
-                <div className="contact-icons">💬</div>
-                <div className="contact-desc">
-                  <h5>Live Chart</h5>
-                  <p>Available 24/7 for urgent</p>
-                </div>
-              </div>
-              <p id="circles">
-                <button className="social-media-links"><FaFacebook /></button>
-                <button className="social-media-links"><FaTelegram /></button>
-                <button className="social-media-links"><FaInstagramSquare /></button>
-                <button className="social-media-links"><FaLinkedin /></button>
-              </p>
             </div>
+            <div className="contact-info">
+              <div className="contact-icons">📞</div>
+              <div className="contact-desc">
+                <h5>Phone</h5>
+                <p>
+                  +1 (555) 123-4567
+                  <br />
+                  Mon-Fri 9am-6pm EST
+                </p>
+              </div>
+            </div>
+            <div className="contact-info">
+              <div className="contact-icons">💬</div>
+              <div className="contact-desc">
+                <h5>Live Chat</h5>
+                <p>
+                  Available 24/7 for urgent
+                  <br />
+                  support
+                </p>
+              </div>
+            </div>
+            <p id="circles">
+              <button className="social-media-links">
+                <FaFacebook />
+              </button>
+              <button className="social-media-links">
+                <FaTelegram />
+              </button>
+              <button className="social-media-links">
+                <FaInstagramSquare />
+              </button>
+              <button className="social-media-links">
+                <FaLinkedin />
+              </button>
+            </p>
           </div>
           <form id="send-message">
             <h2>Send a Message</h2>
