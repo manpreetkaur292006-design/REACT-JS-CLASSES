@@ -6,6 +6,7 @@ import About, {Demo} from './components/About'
 import {add,subtract} from './components/Math';
 import Count from './components/Count';
 import Parent from './propsPassing/Parent';
+import IfElseComp from './ConceptComp/IfElseComp';
 
 
 // console.log(add(2,3));  
@@ -24,6 +25,7 @@ const App = () => {
     <About/>
     <Demo/>
     <Parent/>
+    <IfElseComp/>
    </>
   )
 }
