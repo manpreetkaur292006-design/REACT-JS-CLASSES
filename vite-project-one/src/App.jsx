@@ -7,6 +7,7 @@ import {add,subtract} from './components/Math';
 import Count from './components/Count';
 import Parent from './propsPassing/Parent';
 import IfElseComp from './ConceptComp/IfElseComp';
+import UseStateOne from './Hooks/UseStateOne';
 
 
 // console.log(add(2,3));  
@@ -15,6 +16,7 @@ import IfElseComp from './ConceptComp/IfElseComp';
 // chal jayega ise App ke ander he likna hai
 
 const App = () => {
+  // yahan pe hamara hooks use hoga top level per
   console.log(add(2,3));  
   console.log(subtract(5,2));
   return (
@@ -26,6 +28,7 @@ const App = () => {
     <Demo/>
     <Parent/>
     <IfElseComp/>
+    <UseStateOne/>
    </>
   )
 }
