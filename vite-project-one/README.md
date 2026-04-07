@@ -30,4 +30,14 @@ import About, { Demo } from "./component/About"
 7. Inside onClick or any event just write the function name , no need of () for function call. 
 
 
+## HOOKS 
+
+- Hooks are nothing just the simple functions.
+- It is predefined functions.
+- Hooks allows to use state and other features without writing a class.
+> Two rules to use Hooks : **Important** 
+1. **Only call Hooks at the top level :** <p> Do not call hooks inside loops, conditions or nexted functions. Hooks should always be used at the top level of the react functions.
+2. **Only call hooks from React functions :** <p> You can't call hooks from regular js functions instead you can call hooks from React functional component.
+
+- **NOTE :**  we can't re-render or update the value or state declared in normal js varibles. (ise liye hooks aya)
 
