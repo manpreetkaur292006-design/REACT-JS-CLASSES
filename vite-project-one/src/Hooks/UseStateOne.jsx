@@ -7,11 +7,21 @@ const UseStateOne = () => {
         // count = count + 1
         setCount(count+1)
     }
+    function decrease(){
+        // count = count - 1 
+        setCount(count-1)
+    }
+    function reinitialize(){
+        // count = 0
+        setCount(0)
+    }
   return (
     <>
     <div>UseStateOne</div>
     <h1>Count : {count}</h1>
-    <button onClick={increase}>Click</button>
+    <button onClick={increase}>Increase</button>
+    <button onClick={reinitialize}>ReInitialize</button>
+    <button onClick={decrease}>Decrease</button>
     </>
   )
 }
