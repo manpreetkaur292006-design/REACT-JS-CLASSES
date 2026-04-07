@@ -19,7 +19,9 @@ const UseStateOne = () => {
     <>
     <div>UseStateOne</div>
     <h1>Count : {count}</h1>
-    <button onClick={increase}>Increase</button>
+    <button onClick={increase}>Increase</button>   
+    // or in place of {increase} we can write this arrow function 
+    // {()=>setCount(count+1)}
     <button onClick={reinitialize}>ReInitialize</button>
     <button onClick={decrease}>Decrease</button>
     </>
