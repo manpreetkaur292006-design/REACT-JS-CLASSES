@@ -41,3 +41,5 @@ import About, { Demo } from "./component/About"
 
 - **NOTE :**  we can't re-render or update the value or state declared in normal js varibles. (ise liye hooks aya)
 
+**Note** : setCount((prev)=>): Here "prev" target the latest previous value of the state.
+
