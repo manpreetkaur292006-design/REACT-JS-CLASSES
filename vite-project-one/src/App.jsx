@@ -8,6 +8,7 @@ import Count from './components/Count';
 import Parent from './propsPassing/Parent';
 import IfElseComp from './ConceptComp/IfElseComp';
 import UseStateOne from './Hooks/UseStateOne';
+import MultiCounter from './Hooks/MultiCounter';
 
 
 // console.log(add(2,3));  
@@ -29,6 +30,7 @@ const App = () => {
     <Parent/>
     <IfElseComp/>
     <UseStateOne/>
+    <MultiCounter/>
    </>
   )
 }
