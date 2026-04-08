@@ -5,7 +5,8 @@ const UseStateOne = () => {
     console.log("count",count) // 0
     function increase(){
         // count = count + 1
-        setCount(count+1)
+        // setCount(count+1)
+        setCount((prev)=>prev+1)
     }
     function decrease(){
         // count = count - 1 
@@ -20,8 +21,8 @@ const UseStateOne = () => {
     <div>UseStateOne</div>
     <h1>Count : {count}</h1>
     <button onClick={increase}>Increase</button>   
-    // or in place of {increase} we can write this arrow function 
-    // {()=>setCount(count+1)}
+    {/* or in place of {increase} we can write this arrow function 
+     {()=>setCount(count+1)} */}
     <button onClick={reinitialize}>ReInitialize</button>
     <button onClick={decrease}>Decrease</button>
     </>
