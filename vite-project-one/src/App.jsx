@@ -9,6 +9,10 @@ import Parent from './propsPassing/Parent';
 import IfElseComp from './ConceptComp/IfElseComp';
 import UseStateOne from './Hooks/UseStateOne';
 import MultiCounter from './Hooks/MultiCounter';
+import ShowHidePass from './Hooks/ShowHidePass';
+import ThemeToggle from './Hooks/ThemeToggle';
+import FormHandle from './Hooks/FormHandle';
+import ToDoList from './Hooks/ToDoList';
 
 
 // console.log(add(2,3));  
@@ -31,6 +35,10 @@ const App = () => {
     <IfElseComp/>
     <UseStateOne/>
     <MultiCounter/>
+    <ShowHidePass/>
+    <ThemeToggle/>
+    <FormHandle/>
+    <ToDoList/>
    </>
   )
 }
