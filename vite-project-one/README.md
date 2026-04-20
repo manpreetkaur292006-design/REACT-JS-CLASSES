@@ -43,3 +43,17 @@ import About, { Demo } from "./component/About"
 
 **Note** : setCount((prev)=>): Here "prev" target the latest previous value of the state.
 
+
+## UseEffect
+
+>It is used to manage all the life cycle methods alone.
+- sirf ise se saare life cycle methods ko access or utilize kar sakte hai
+
+> UI render ho gaya -> ab kuch extra kaam karo
+
+- useEffect(()=>{},[]) -> Syntax
+- useEffect will take two parameters one is callback function and second is dependancy array.
+- useEffect(Callback,dependancy-array)
+- If the dependancy array is empty then it will mount only once when the page reload for the first time.
+
+
