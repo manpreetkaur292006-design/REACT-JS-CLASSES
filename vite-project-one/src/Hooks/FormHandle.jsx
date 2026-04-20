@@ -8,6 +8,7 @@ const FormHandle = () => {
       <input
         type="text"
         placeholder="Enter name"
+        value={name}  // name is the state here 
         onChange={(e) => setName(e.target.value)}
       />
       <h2>Hello, {name}</h2>
