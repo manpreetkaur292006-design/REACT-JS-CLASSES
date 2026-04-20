@@ -13,6 +13,8 @@ import ShowHidePass from './Hooks/ShowHidePass';
 import ThemeToggle from './Hooks/ThemeToggle';
 import FormHandle from './Hooks/FormHandle';
 import ToDoList from './Hooks/ToDoList';
+import WindowResize from './components/WindowResize';
+import DataFetching from './Hooks/UseEffect/DataFetching';
 
 
 // console.log(add(2,3));  
@@ -39,6 +41,8 @@ const App = () => {
     <ThemeToggle/>
     <FormHandle/>
     <ToDoList/>
+    <WindowResize/>
+    <DataFetching/>
    </>
   )
 }
