@@ -1,8 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 
 const UseStateOne = () => {
     const [count,setCount] = useState(0)
     console.log("count",count) // 0
+
+    useEffect(()=>{
+        console.log("button clicked !");
+    },[count])
+
     function increase(){
         // count = count + 1
         // setCount(count+1)
@@ -16,6 +21,8 @@ const UseStateOne = () => {
         // count = 0
         setCount(0)
     }
+
+    console.log("render")
   return (
     <>
     <div>UseStateOne</div>
