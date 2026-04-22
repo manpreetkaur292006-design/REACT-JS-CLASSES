@@ -7,7 +7,13 @@ const Technology = () => {
 
   return (
     <>
-      {TechnologyData}
+      {TechnologyData.map((techdata)=>(
+        <>
+          <h1>{techdata.title}</h1>
+          <img src={techdata.img_url}/>
+          <p>{techdata.description}</p>
+        </>
+      ))}
     </>
   )
 }
