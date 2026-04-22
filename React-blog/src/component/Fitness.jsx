@@ -9,9 +9,9 @@ const Fitness = () => {
     <>
       {FitnessData.map((fitnessdata)=>(
         <>
-          <h1>{fitnessdata.title}</h1>
-          <img src={fitnessdata.img_url}/>
-          <p>{fitnessdata.description}</p>
+          <h1 className='blog-section-head'>{fitnessdata.title}</h1>
+          <img src={fitnessdata.img_url} className='blog-section-img'/>
+          <p className='blog-section-desc'>{fitnessdata.description}</p>
         </>
       ))}
     </>
