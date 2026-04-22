@@ -9,9 +9,9 @@ const Technology = () => {
     <>
       {TechnologyData.map((techdata)=>(
         <>
-          <h1>{techdata.title}</h1>
-          <img src={techdata.img_url}/>
-          <p>{techdata.description}</p>
+          <h1 className='blog-section-head'>{techdata.title}</h1>
+          <img src={techdata.img_url} className='blog-section-img'/>
+          <p className='blog-section-desc'>{techdata.description}</p>
         </>
       ))}
     </>
