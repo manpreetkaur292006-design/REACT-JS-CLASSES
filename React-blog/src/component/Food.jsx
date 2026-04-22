@@ -9,9 +9,9 @@ const Food = () => {
     <>
       {FoodData.map((fooddata)=>(
         <>
-          <h1>{fooddata.title}</h1>
-          <img src={fooddata.img_url}/>
-          <p>{fooddata.description}</p>
+          <h1 className='blog-section-head'>{fooddata.title}</h1>
+          <img src={fooddata.img_url} className='blog-section-img'/>
+          <p className='blog-section-desc'>{fooddata.description}</p>
         </>
       ))}
     </>
