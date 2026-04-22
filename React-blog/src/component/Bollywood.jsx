@@ -9,9 +9,9 @@ const Bollywood = () => {
     <>
       {BollywoodData.map((bollydata)=>(
         <>
-          <h1>{bollydata.title}</h1>
-          <img src={bollydata.img_url}/>
-          <p>{bollydata.description}</p>
+          <h1 className='blog-section-head'>{bollydata.title}</h1>
+          <img src={bollydata.img_url} className='blog-section-img'/>
+          <p className='blog-section-desc'>{bollydata.description}</p>
         </>
       ))}
     </>
