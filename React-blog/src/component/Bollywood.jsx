@@ -6,6 +6,8 @@ const Bollywood = () => {
   const BollywoodData = Data.filter((item)=>item.category==="Bollywood");
 
   return (
+    <>
+    <h1>Bollywood</h1>
     <div className='blog-section-container'>
       {BollywoodData.map((bollydata)=>(
         <div className='blog-section-div'>
@@ -15,6 +17,7 @@ const Bollywood = () => {
         </div>
       ))}
     </div>
+    </>
   )
 }
 
