@@ -6,6 +6,8 @@ const Food = () => {
   const FoodData = Data.filter((item)=>item.category==="Food");
 
   return (
+    <>
+    <h1>Food</h1>
     <div className='blog-section-container'>
       {FoodData.map((fooddata)=>(
         <div className='blog-section-div'>
@@ -15,6 +17,7 @@ const Food = () => {
         </div>
       ))}
     </div>
+    </>
   )
 }
 
