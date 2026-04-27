@@ -7,6 +7,7 @@ import Technology from './component/Technology'
 import Fitness from './component/Fitness'
 import Food from './component/Food'
 import NavBar from './component/NavBar'
+import Details from './component/Details'
 
 const App = () => {
   return (
@@ -16,12 +17,16 @@ const App = () => {
         <NavBar/>
 
         <Routes>
+          
           <Route path="/" element={<Home/>}/>
           <Route path="/bollywood" element={<Bollywood/>}/>
           <Route path="/hollywood" element={<Hollywood/>}/>
           <Route path="/technology" element={<Technology/>}/>
           <Route path="/fitness" element={<Fitness/>}/>
           <Route path="/food" element={<Food/>}/>
+
+          <Route path="/details/:id" element={<Details/>}/>
+
         </Routes>
       </BrowserRouter>
     </>
