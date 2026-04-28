@@ -15,6 +15,8 @@ import FormHandle from './Hooks/FormHandle';
 import ToDoList from './Hooks/ToDoList';
 import WindowResize from './components/WindowResize';
 import DataFetching from './Hooks/UseEffect/DataFetching';
+import MovieProvider from './context/MovieProvider';
+import MovieList from './context/MovieList';
 
 
 // console.log(add(2,3));  
@@ -43,6 +45,10 @@ const App = () => {
     <ToDoList/>
     <WindowResize/>
     <DataFetching/>
+
+    <MovieProvider>
+      <MovieList/>
+    </MovieProvider>
    </>
   )
 }
