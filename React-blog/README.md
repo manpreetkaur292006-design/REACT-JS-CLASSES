@@ -24,3 +24,6 @@ useContext(userContext)
 
 (dark and light theme is the best example for the context api that is easy)
 
+value = {{movie}} here value = {movie}  according to syntax
+yahan double curly bracket ayega
+
