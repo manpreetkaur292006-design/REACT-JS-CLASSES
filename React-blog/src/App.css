@@ -64,6 +64,14 @@ body{
   z-index: 100;
 }
 
+.theme-toggle-btn{
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 38px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
 /* styling the blog cards */
 
 .blog-section-container {
