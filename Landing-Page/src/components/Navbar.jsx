@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
         <header className='header'>
-            <div classN ame='title'>
+            <div className='title'>
                 <img src={logo} alt="Inner Peace Logo" className='logo' />
                 <h1>Inner Peace</h1>
             </div>
